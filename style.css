@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#conteiner{
+    height: 400px;
+    width: 800px;
+}
+
+#img1{
+    background-image: url('img1.jpg');
+    height:400px;
+}
+
+#img2{
+    background-image: url('img2.jpg');
+    display: none;
+}
+
+#img3{
+    background-image: url('img3.png');
+    display: none;
+}
+
+#img4{
+    background-image: url('img4.jpg');
+    display: none;
+}
+
+#img5{
+    background-image: url('img5.jpg');
+    display: none;
+}
+
+#img6{
+    background-image: url('img6.jpg');
+    display: none;
+}
+
+#img1 , #img2, #img3, #img4, #img5, #img6{
+    height:400px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 5px black;
+}
+
+#proxima,#anterior{
+    height: 300px;
+    border:3px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px black;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#proxima:hover,#anterior:hover{
+    color: black;
+    transition: .5s;
+
+}
