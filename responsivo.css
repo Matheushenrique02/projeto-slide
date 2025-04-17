@@ -1,0 +1,23 @@
+@media (max-width: 800px){
+
+    body{
+        flex-direction: column;
+    }
+
+
+    #conteiner{
+        width: 400px;
+        height: 300px;
+        
+    }
+
+    #img1 , #img2, #img3, #img4, #img5, #img6{
+        height: 300px;
+    }
+
+    #proxima, #anterior{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+}
